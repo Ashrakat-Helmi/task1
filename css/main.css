@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.home{
+    width: 100%;
+    height: 1075px;
+    
+}
+   
+.home .nav{
+    width: 95%;
+    overflow: auto;
+    margin: 0px 20px;
+}
+.home .nav ul{
+   list-style-type: none;
+
+}
+.home .nav ul .name{
+    float: left;
+    color:rgb(163, 29, 29) ;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home .nav ul li{
+    float: right;
+    margin: 2px 5px 0px 0px;
+    padding: 5px;
+
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color: rgb(5, 5, 4);
+
+}
+/* ======================end nav */
+.home .img1{
+    width:95%;
+    text-align: center;
+
+}
+.home .img1 img{
+    width: 100%;
+    height: 500px;
+    margin: 0px 20px;
+   
+}
+/* ============================= */
+.home .cham{
+    width: 31%;
+    float: left;
+    margin: 12px;
+
+}
+.home .cham img{
+    width: 45%;
+    display: inline;
+    height: 300px;
+    margin: 9px;
+}
+.home .cham .lo{
+    width: 15%;
+    float: left;
+    height:50px ;
+  
+}
+.home .cham h1{
+    font-size: 32px;
+    display: block;
+    margin: 15px 0px;
+    color: rgb(163, 29, 29);
+}
+.home .cham p{
+    margin: 20px 0px;
+    padding: 10px 5px;
+}
+.home .cham button{
+    margin: 0px 0px 10px 5px;
+    padding: 5px 7px;
+    background-color:rgb(163, 42, 42) ;
+}
+/* ================================================== */
+.caption{
+    width: 100%;
+    height: 30px;
+    overflow:auto;
+}
+.caption h2{
+    font-size: 25px;
+    margin: 0px 0px 0px 30px;
+    float: left;
+}
+.caption div{
+    background-color: rgb(163, 29, 29);
+    height: 10px;
+    width: 85%;
+    float: right;
+    margin: 10px 40px 0px 0px;
+}
+/* ============================================ */
+.player{
+    width: 22%;
+    float: left;
+    margin: 10px 18px;
+    border: 2px solid gray;
+ 
+}
+.player img{
+    width: 100%;
+    display: inline;
+    height: 300px;
+    
+}
+.player a{
+    font-size: 25px;
+    margin: 0px 0px 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+.layout{
+    margin: 0px 10px 10px 0px;
+}
+/* ========================================== */
+.about-header{
+    width: 100%;
+    margin: 20px 20px;
+    
+}
+.about-header .about{
+    background-color: rgb(163, 29, 29);
+    width: 32%;
+    float: left;
+    height: 200px;
+}
+.about-header .about h1{
+    font-size: 32px;
+}
+.about-header .about a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 0px 0px 0px 5px;
+}
+.about-header .about img{
+    width: 10%;
+    height: 50px;
+}
